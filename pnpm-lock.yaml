@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@storentia/sdk':
-        specifier: file:../sdks/storentiajs
-        version: file:../sdks/storentiajs
+        specifier: latest
+        version: 0.3.1
       next:
         specifier: 16.2.12
         version: 16.2.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -455,8 +455,8 @@ packages:
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
-  '@storentia/sdk@file:../sdks/storentiajs':
-    resolution: {directory: ../sdks/storentiajs, type: directory}
+  '@storentia/sdk@0.3.1':
+    resolution: {integrity: sha512-Q9xD8SnjXbIEQhOPYDD1D+x4AcYtWPwfgqBdmyNG2HtXsI03d7cfVRP6i5edqmUqxsXsp6C33grq6gjqOH+MtA==}
 
   '@swc/helpers@0.5.15':
     resolution: {integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==}
@@ -1306,7 +1306,7 @@ snapshots:
 
   '@standard-schema/spec@1.1.0': {}
 
-  '@storentia/sdk@file:../sdks/storentiajs': {}
+  '@storentia/sdk@0.3.1': {}
 
   '@swc/helpers@0.5.15':
     dependencies:
